@@ -24,7 +24,7 @@ module.exports = {
         target: `App/Containers/${name}/index.js`
       },
       {
-        template: "pho.container-style.ejs",
+        template: "pho.container.style.ejs",
         target: `App/Containers/${name}/style.js`
       }
     ];
