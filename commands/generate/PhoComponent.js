@@ -30,10 +30,6 @@ module.exports = {
       {
         template: "PhoComponent.js.ejs",
         target: `app/components/${name}/index.js`
-      },
-      {
-        template: "PhoComponentStyle.js.ejs",
-        target: `app/components/${name}/style.js`
       }
     ];
 
