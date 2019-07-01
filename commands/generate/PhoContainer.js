@@ -63,5 +63,5 @@ module.exports = {
   //   } else {
   //     print.info("Container created, manually add it to your navigation");
   //   }
-  // }
+  }
 };
