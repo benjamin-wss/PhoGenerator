@@ -1,3 +1,9 @@
 {
-  "generators": ["PhoComponent", "PhoContainer", "PhoRedux", "PhoSaga"]
+  "generators": [
+    "PhoComponent",
+    "PhoContainer",
+    "PhoRedux",
+    "PhoSaga",
+    "PhoForSharing"
+  ]
 }
