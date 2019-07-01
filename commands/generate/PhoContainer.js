@@ -20,11 +20,11 @@ module.exports = {
 
     const jobs = [
       {
-        template: "container.ejs",
+        template: "pho.container.ejs",
         target: `App/Containers/${name}/index.js`
       },
       {
-        template: "container-style.ejs",
+        template: "pho.container-style.ejs",
         target: `App/Containers/${name}/style.js`
       }
     ];
