@@ -9,7 +9,7 @@
 
 module.exports = {
   description: "Example Phogenerator generator",
-  run: async function(toolbox) {
+  run: async (toolbox) => {
     // Learn more about toolbox: https://infinitered.github.io/gluegun/#/toolbox-api.md
     const { parameters, strings, print, ignite } = toolbox;
     const { pascalCase, isBlank } = strings;

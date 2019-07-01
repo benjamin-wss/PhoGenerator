@@ -29,6 +29,6 @@ module.exports = {
       }
     ];
 
-    await ignite.copyBatch(toolbox, jobs, props)
+    await ignite.copyBatch(toolbox, jobs, props);
   }
 };
